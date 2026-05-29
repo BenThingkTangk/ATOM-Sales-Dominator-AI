@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#04040a" />
+<title>404 · ATOM AI</title>
+<meta name="description" content="The page you were looking for doesn't exist. Back to ATOM AI." />
+<meta name="robots" content="noindex,follow" />
+<link rel="canonical" href="https://atom-sales-dominator-ai.vercel.app/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400..800&family=Inter:wght@400..700&display=swap" rel="stylesheet" />
+<style>
+:root {
+  --bg:#04040a; --fg:#f2f3fb; --fg-muted:rgba(242,243,251,0.72); --fg-dim:rgba(242,243,251,0.45);
+  --indigo:#7c7df0; --purple:#9a6bff; --signal:#46e5b0;
+  --grad:linear-gradient(135deg,#7c7df0 0%,#9a6bff 100%);
+  --font-display:'Plus Jakarta Sans',Inter,system-ui,sans-serif;
+  --font-body:'Inter','Plus Jakarta Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:var(--font-body);background:var(--bg);color:var(--fg);
+  background-image:
+    radial-gradient(1200px 600px at 50% -10%,rgba(124,125,240,0.18),transparent 60%),
+    radial-gradient(900px 500px at 90% 10%,rgba(154,107,255,0.12),transparent 60%);
+  display:flex;align-items:center;justify-content:center;padding:32px;text-align:center;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:560px;display:flex;flex-direction:column;align-items:center;gap:20px}
+.code{
+  font-family:var(--font-display);font-weight:800;letter-spacing:-0.04em;
+  font-size:clamp(5rem,15vw,9rem);line-height:1;
+  background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+h1{font-family:var(--font-display);font-size:clamp(1.5rem,2vw+1rem,2rem);font-weight:700;letter-spacing:-0.02em}
+p{color:var(--fg-muted);line-height:1.6;max-width:46ch}
+.actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:9999px;font-weight:600;font-size:.95rem;border:1px solid transparent;transition:transform 140ms ease, box-shadow 240ms ease, background 240ms ease;}
+.btn:hover{transform:translateY(-1px)}
+.primary{background:var(--grad);color:#0a0a14;box-shadow:0 10px 40px -10px rgba(124,125,240,0.55)}
+.secondary{background:rgba(255,255,255,0.05);color:var(--fg);border-color:rgba(255,255,255,0.14)}
+.secondary:hover{background:rgba(255,255,255,0.08)}
+a{text-decoration:none;color:inherit}
+.crumb{font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--fg-dim)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <span class="crumb">— ATOM AI · Lost in space</span>
+  <div class="code">404</div>
+  <h1>We can't find that page.</h1>
+  <p>It may have moved, or you mistyped the URL. Head back to the landing or jump straight into a free trial.</p>
+  <div class="actions">
+    <a class="btn primary" href="/">Back to ATOM</a>
+    <a class="btn secondary" href="/signup">Start Free Trial</a>
+  </div>
+</main>
+</body>
+</html>
